@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/ice-cream.css">
+    <link rel="stylesheet" href="css/ice-cream-grid.css">
+</head>
+
+<body>
+    <div class="content">
+
+        <div class="row">
+            <div class="col-12">
+                <h1>The ice cream widget</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4>Flavours</h4>
+                <span>
+                    <span> <input type="radio" name="btn" class="iceCreamFlavour" value="Vanilla">Vanilla</span>
+                    <span> <input type="radio" name="btn" class="iceCreamFlavour" value="Chocolate">Chocolate</span>
+                    <span> <input type="radio" name="btn" class="iceCreamFlavour" value="Strawberry">Strawberry</span>
+
+                </span>
+
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <h4>Container types</h4>
+                <span>
+                    <span> <input type="radio" name="button" class="iceCreamContainer" value="Plain">Plain cone</span>
+                    <span> <input type="radio" name="button" class="iceCreamContainer" value="Sugar">Sugar cone</span>
+                    <span> <input type="radio" name="button" class="iceCreamContainer" value="Paper">Paper cup</span>
+
+                </span>
+
+            </div>
+        </div>
+        <br>
+
+        <di class="row">
+            <div class="col-12">
+                <h3>Toppings</h3>
+                <input type="checkbox" name="topping1" class="iceCreamTopping" value="Smarties"> Smarties<br>
+                <input type="checkbox" name="topping2" class="iceCreamTopping" value="Smarties"> Chocolate<br>
+                <input type="checkbox" name="topping3" class="iceCreamTopping" value="Caramel dip"> Caramel dip<br>
+                <input type="checkbox" name="topping4" class="iceCreamTopping" value="Oreos"> Oreos<br>
+                <input type="checkbox" name="topping5" class="iceCreamTopping" value="Astros"> Astros<br>
+
+            </div>
+        </di>
+
+        <br>
+        <di class="row">
+            <di class="col-12">
+                <button class="getPriceBtn" type="button" name="button">Get Price</button>
+                <span class="all">Total Cost: </span><span class="total">0</span>
+            </di>
+        </di>
+    </div>
+
+    <script src="ice-cream.js" charset="utf-8"></script>
+    <script src="ice-cream-dom.js" charset="utf-8"></script>
+</body>
+
+</html>

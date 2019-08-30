@@ -1,0 +1,25 @@
+h1{
+    font-style: oblique;
+    font-size: 50px;
+    text-align: center;
+    width: 500px;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 10px;
+
+  }
+
+  .all{
+      margin-left: 4.5em;
+      font-size: 30px
+  }
+  .total{
+    font-size: 30px;
+  }
+  /* .content{
+      justify-content: center;
+      display: flex;
+  } */
+  body{
+      background-color: lightcyan;
+  }
